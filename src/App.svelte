@@ -23,11 +23,16 @@
             return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
         }
     };
+
+    let show = false;
 </script>
 
-{#if !isMobile.any()}
-    <h3 id="mobile-error">Hey just so you know this site works best on mobile devices, on desktop things might get
-        funky</h3>
+{#if !isMobile.any() && !show}
+    <div id="mobile-error">
+        <h3 id="error">Hey just so you know this site works best on mobile devices, on desktop things might get
+            funky</h3>
+        <h4 id="close-message" on:click={()=>{show = true}}>x</h4>
+    </div>
 {/if}
 <main>
     <div id="message">
@@ -68,8 +73,18 @@
         padding: 20px;
         margin: 0;
 
-        background: #fff7fa;
+        display: flex;
+        justify-content: space-between;
+
+        background: #f8ccdc;
         color: #e6528b;
+    }
+
+    #close-message {
+        text-decoration: underline;
+    }
+    #close-message:hover {
+        text-decoration: none;
     }
 
     #message {
