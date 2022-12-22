@@ -43,13 +43,13 @@
     }
 
     main {
-        background: #090909;
+        background: #252122;
         padding: 20px;
         margin: 20px 0;
         border-radius: 10px;
     }
 
     #activity {
-        color: #fe5226;
+        color: #ed227c;
     }
 </style>

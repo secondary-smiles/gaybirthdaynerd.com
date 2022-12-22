@@ -2,6 +2,7 @@
     import Apod from "./lib/apis/nasa/Apod.svelte";
     import Activity from "./lib/apis/boredapi/Activity.svelte";
     import Trivia from "./lib/apis/trivia/Trivia.svelte";
+    import RandomFact from "./lib/apis/facts/RandomFact.svelte";
 
     const isMobile = {
         Android: function () {
@@ -51,6 +52,9 @@
         <div id="trivia-question">
             <Trivia></Trivia>
         </div>
+        <div id="random-fact">
+            <RandomFact></RandomFact>
+        </div>
     </div>
     <div id="footer-stuff">
         <h5>LOVE U SIMON</h5>
@@ -83,6 +87,7 @@
     #close-message {
         text-decoration: underline;
     }
+
     #close-message:hover {
         text-decoration: none;
     }
