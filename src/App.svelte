@@ -3,6 +3,7 @@
     import Activity from "./lib/apis/boredapi/Activity.svelte";
     import Trivia from "./lib/apis/trivia/Trivia.svelte";
     import RandomFact from "./lib/apis/facts/RandomFact.svelte";
+    import Riddle from "./lib/apis/riddle/Riddle.svelte";
 
     const isMobile = {
         Android: function () {
@@ -57,10 +58,14 @@
             <div id="random-fact">
                 <RandomFact></RandomFact>
             </div>
+            <div id="riddle-api">
+                <Riddle></Riddle>
+            </div>
         </div>
     </div>
     <div id="footer-stuff">
         <h5>LOVE U SIMON</h5>
+        <img src="https://visitor-badge.glitch.me/badge?page_id=gaybirthdaynerd/visitors&left_color=teal&right_color=yellow" alt="visitor badge"/>
     </div>
 </main>
 
@@ -77,11 +82,13 @@
 
     #mobile-error {
         top: 0;
-        padding: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
         margin: 0;
 
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
 
         background: #f8ccdc;
         color: #e6528b;
@@ -89,6 +96,10 @@
 
     #close-message {
         text-decoration: underline;
+        padding: 10px;
+        border: 3px solid #cc97a8;
+        border-radius: 4px;
+
     }
 
     #close-message:hover {
