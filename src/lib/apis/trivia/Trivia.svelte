@@ -55,6 +55,8 @@
         padding: 20px;
         margin: 20px 0;
         border-radius: 10px;
+
+        max-width: 600px;
     }
 
     button {

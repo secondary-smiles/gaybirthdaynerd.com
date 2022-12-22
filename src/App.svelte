@@ -42,18 +42,21 @@
         <h3>happy birthday too? I guess??? (this isn't your birthday present though)</h3>
         <h4>Here's a few cool things anyways tho (I'm making this in only one night, remember)</h4>
     </div>
-    <div id="api-fun">
-        <div id="nasa-image-of-the-day">
-            <Apod></Apod>
-        </div>
-        <div id="random-activity">
-            <Activity></Activity>
-        </div>
-        <div id="trivia-question">
-            <Trivia></Trivia>
-        </div>
-        <div id="random-fact">
-            <RandomFact></RandomFact>
+    <div id="api-fun-wrapper">
+
+        <div id="api-fun">
+            <div id="nasa-image-of-the-day">
+                <Apod></Apod>
+            </div>
+            <div id="random-activity">
+                <Activity></Activity>
+            </div>
+            <div id="trivia-question">
+                <Trivia></Trivia>
+            </div>
+            <div id="random-fact">
+                <RandomFact></RandomFact>
+            </div>
         </div>
     </div>
     <div id="footer-stuff">
@@ -95,6 +98,19 @@
     #message {
         font-family: 'Black Han Sans', sans-serif;
         color: #fecc00;
+    }
+
+    #api-fun-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #api-fun {
+        display: flex;
+
+        flex-direction: column;
+        align-items: stretch;
     }
 
     #footer-stuff {
