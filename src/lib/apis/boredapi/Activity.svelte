@@ -14,8 +14,6 @@
 
         activity.name = data.activity;
         activity.link = data.link;
-
-        console.log(data)
     }
 
     getActivity();

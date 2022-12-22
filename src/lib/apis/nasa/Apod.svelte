@@ -56,10 +56,6 @@
         border-radius: 10px;
     }
 
-    #title {
-        text-align: center;
-    }
-
     #image {
         text-align: center;
     }
