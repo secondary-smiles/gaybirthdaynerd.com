@@ -4,6 +4,7 @@
     import Trivia from "./lib/apis/trivia/Trivia.svelte";
     import RandomFact from "./lib/apis/facts/RandomFact.svelte";
     import Riddle from "./lib/apis/riddle/Riddle.svelte";
+    import ImgToTheme from "./lib/elem/ImgToTheme.svelte";
 
     const isMobile = {
         Android: function () {
@@ -43,7 +44,7 @@
         <h3>happy birthday too? I guess??? (this isn't your birthday present though)</h3>
         <h4>Here's a few cool things anyways (I'm making this in only one night, remember)</h4>
     </div>
-    <div id="api-fun-wrapper">
+    <div id="column-wrapper">
 
         <div id="api-fun">
             <div id="nasa-image-of-the-day">
@@ -60,6 +61,11 @@
             </div>
             <div id="riddle-api">
                 <Riddle></Riddle>
+            </div>
+        </div>
+        <div id="other">
+            <div id="makeatheme">
+                <ImgToTheme></ImgToTheme>
             </div>
         </div>
     </div>
@@ -90,8 +96,8 @@
         justify-content: space-between;
         align-items: baseline;
 
-        background: #f8ccdc;
-        color: #e6528b;
+        background: #441022;
+        color: #a3456b;
     }
 
     #close-message {
@@ -111,7 +117,7 @@
         color: #fecc00;
     }
 
-    #api-fun-wrapper {
+    #column-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;

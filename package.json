@@ -20,6 +20,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
     "firebase-tools": "^11.19.0"
   }
 }
