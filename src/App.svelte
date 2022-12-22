@@ -40,7 +40,7 @@
         <h1>Aw shit</h1>
         <h2>this was supposed to be a christmas present but I guess I got carried away..</h2>
         <h3>happy birthday too? I guess??? (this isn't your birthday present though)</h3>
-        <h4>Here's a few cool things anyways tho (I'm making this in only one night, remember)</h4>
+        <h4>Here's a few cool things anyways (I'm making this in only one night, remember)</h4>
     </div>
     <div id="api-fun-wrapper">
 
