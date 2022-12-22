@@ -17,7 +17,6 @@
         fact.fact = data.text;
         fact.count = data.index
         fact.source = data.source;
-        console.log(data)
     }
 
     getFact();

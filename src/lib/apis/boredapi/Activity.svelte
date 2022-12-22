@@ -9,7 +9,7 @@
     let activity = new Activity("Placeholder Activity..", "")
 
     async function getActivity() {
-        const response = await fetch("http://www.boredapi.com/api/activity/");
+        const response = await fetch("https://www.boredapi.com/api/activity/");
         const data = await response.json();
 
         activity.name = data.activity;
