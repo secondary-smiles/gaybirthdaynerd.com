@@ -47,6 +47,7 @@
     main {
         background: #1a1a26;
         padding: 20px;
+        margin: 20px 0;
         border-radius: 10px;
     }
 
