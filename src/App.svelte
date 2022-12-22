@@ -33,8 +33,8 @@
     <div id="message">
         <h1>Aw shit</h1>
         <h2>this was supposed to be a christmas present but I guess I got carried away..</h2>
-        <h3>happy birthday too? (this isn't your birthday present though)</h3>
-        <h4>I guess, here's a few cool things (I'm making this in only one night, remember)</h4>
+        <h3>happy birthday too? I guess??? (this isn't your birthday present though)</h3>
+        <h4>Here's a few cool things anyways tho (I'm making this in only one night, remember)</h4>
     </div>
     <div id="api-fun">
         <div id="nasa-image-of-the-day">
@@ -53,8 +53,14 @@
 </main>
 
 <style>
+    /*noinspection CssUnknownTarget*/
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+    /*noinspection CssUnknownTarget*/
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
     main {
         padding: 8px;
+        background: #0c0a02;
     }
 
     #mobile-error {
@@ -64,5 +70,15 @@
 
         background: #fff7fa;
         color: #e6528b;
+    }
+
+    #message {
+        font-family: 'Black Han Sans', sans-serif;
+        color: #fecc00;
+    }
+
+    #footer-stuff {
+        font-family: 'League Spartan', sans-serif;
+        color: #9d9292;
     }
 </style>

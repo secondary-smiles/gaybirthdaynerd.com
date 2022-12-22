@@ -43,10 +43,10 @@
 
 <style>
     /*noinspection CssUnknownTarget*/
-    @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
     * {
-        font-family: 'Chivo Mono', monospace;
+        font-family: 'Fredoka One', cursive;
         color: #f9f8f7;
     }
 
